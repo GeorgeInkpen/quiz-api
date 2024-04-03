@@ -6,8 +6,7 @@ phases:
     - npm fund
   build:
     commands:
-    -  npm cache clean --force
-    - npm build .
+    - npm rebuild
     - npm test
 artifacts:
   files:
