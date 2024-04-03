@@ -9,7 +9,7 @@ phases:
     - npm fund
   build:
     commands:
-    - npm build
+    - npm build .
     - npm test
 artifacts:
   files:
