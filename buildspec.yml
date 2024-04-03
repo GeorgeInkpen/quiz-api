@@ -6,9 +6,11 @@ phases:
   pre_build:
     commands:
     - npm install
+    - npm fund
+    - npm audit fix
   build:
     commands:
-    - npm run build
+    - npm build
     - npm test
 artifacts:
   files:
