@@ -7,7 +7,6 @@ phases:
     commands:
     - npm install
     - npm fund
-    - npm audit fix
   build:
     commands:
     - npm build
